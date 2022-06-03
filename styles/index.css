@@ -48,16 +48,26 @@ body {
 }
 
 .hero header .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   color: white;
   width: 50%;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .hero header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .hero header .nav .logo {
@@ -70,9 +80,12 @@ body {
 
 .hero header .nav-list {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .hero header .nav-list .nav-item {
@@ -92,14 +105,22 @@ body {
 }
 
 .hero .banner_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 700px;
 }
 
 .hero .banner_inner .left {
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero .banner_inner .left_wrapper {
@@ -126,9 +147,15 @@ body {
 
 .hero .banner_inner .right {
   background: #02250A;
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero .banner_inner .right_wrapper {
@@ -153,3 +180,187 @@ body {
   bottom: 0;
   right: 134px;
 }
+
+.charm {
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.charm .when {
+  position: relative;
+  width: 45%;
+}
+
+.charm .when .thanks {
+  width: 552px;
+  height: 635px;
+  position: absolute;
+  background-color: #02250A;
+  left: 30px;
+}
+
+.charm .when .video {
+  bottom: 29px;
+  position: relative;
+  z-index: 1;
+}
+
+.charm .right-why {
+  width: 45%;
+  margin-left: 50px;
+}
+
+.charm .right-why h2 {
+  line-height: 58.09px;
+  width: 641px;
+  font-weight: 700;
+  height: 116px;
+  font-size: 48px;
+}
+
+.charm .right-why p {
+  height: 119px;
+  font-weight: 400;
+  width: 572px;
+  font-size: 18px;
+  line-height: 21.78px;
+}
+
+.report {
+  width: 1440px;
+  height: 809px;
+  background-color: #02250A;
+  margin-block: 115px;
+  margin-inline: 40px;
+}
+
+.report .btn-white {
+  background-color: white;
+  color: #000;
+  margin-top: 85px;
+  margin-left: 43%;
+}
+
+.report h2 {
+  width: 400px;
+  height: 58px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58.09px;
+  color: white;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.report .hmmm {
+  width: 110px;
+  height: 11px;
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.report .pit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.report .push {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 300px;
+  height: 424px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.report .push .pull {
+  padding: 10px;
+  position: relative;
+}
+
+.report .push .pull img {
+  width: 276px;
+  height: 207px;
+}
+
+.report .push .pull .pollute {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+  width: 174px;
+  height: 22px;
+  margin-right: 10px;
+}
+
+.report .push .pull .date {
+  width: 73px;
+  height: 17px;
+  font-size: 14px;
+  margin-left: 10px;
+  color: #5e5e5e;
+}
+
+.report .push .pull p {
+  font-size: 14px;
+  line-height: 18.15px;
+  font-weight: 400;
+  width: 274px;
+  height: 86px;
+}
+
+.report .push .pull .ogoni {
+  width: 81px;
+  height: 19px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+
+.tammy .delta {
+  width: 705px;
+  height: 116px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58.09px;
+  margin-left: 100px;
+}
+
+.tammy .picture {
+  margin: 20px;
+}
+
+.tammy .picture .images {
+  width: 80%;
+  margin-inline: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tammy .picture .images img {
+  width: 317px;
+  height: 257px;
+  margin: 0;
+}
+
+.deep {
+  background-color: #02250A;
+  color: #fff;
+  height: 92px;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.deep p {
+  text-align: center;
+  padding: 40px;
+}
+
+.deep p span {
+  font-weight: 700;
+  font-size: 18px;
+}
+/*# sourceMappingURL=index.css.map */
